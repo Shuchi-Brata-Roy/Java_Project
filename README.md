@@ -1,37 +1,23 @@
-# Employee Management System
+# Food Court Management Application
 
-This repository contains the source code for an Employee Management System developed in C#. The system allows for the management of employees, with three different user roles: Admin, Employee, and Manager.
+The Food Court Management Application is a Java project designed to streamline the operations and management of a food court. It provides a user-friendly interface for customers, staff members, and administrators to efficiently handle various tasks related to food ordering, inventory management, and sales tracking.
 
-## Features
+☞ **Features**
 
-### Admin
-- User management: Create, update, and delete user accounts.
-- Role management: Assign roles to users (admin, employee, manager).
-- Access control: Grant or revoke access permissions for different system functionalities.
-- Employee management: Complete control over employee records, including adding, editing, and removing employees.
-- Reporting: Generate reports on employee statistics, performance, or other relevant data.
-- System settings: Configure system preferences, such as email notifications, default settings, etc.
+1. Customer Management: Customers can create accounts, browse menus, place orders, and track their order status.
+2. Menu Management: Staff members can manage menus by adding, updating, and removing food items. They can also set prices, add descriptions, and categorize items.
+3. Order Processing: The application allows staff members to process incoming orders, assign order numbers, and notify customers about their order status.
+4. Inventory Management: The system keeps track of inventory levels, alerts staff members about low stock items, and generates reports on ingredient usage.
+5. Sales Analytics: Administrators can access comprehensive reports and analytics, including sales data, popular food items, and revenue generation.
+   
+User Roles and Permissions: Different levels of access are provided to customers, staff members, and administrators, ensuring appropriate functionality and data security.
 
-### Employee
-- Profile management: Update personal details, such as contact information, address, profile picture, etc.
-- Leave management: Submit leave requests, view leave balances, and check the status of leave applications.
-- Attendance tracking: Mark attendance (clock in/out) and view attendance history.
-- Task management: Assign tasks, update task status, and add comments or attachments.
-- Personal notifications: Receive notifications about assigned tasks, updates, and other important announcements.
-- Performance evaluation: Participate in performance reviews and provide self-assessments.
+**Technologies Used**
 
-### Manager
-- Employee management: View and update employee records, including personal details, job information, etc.
-- Team management: Assign employees to specific teams or projects and manage team-related tasks.
-- Performance evaluation: Conduct performance reviews for employees, provide feedback, and set goals.
-- Leave management: Approve or reject leave requests submitted by employees.
-- Reporting: Access reports on team performance, project progress, or other relevant data.
-- Communication: Communicate with employees, either individually or as a group, through the system.
+Java: The core programming language used for the development of the application.
 
-## Technology Used
+JavaFX: The graphical user interface (GUI) framework for creating interactive UI components.
 
-The Employee Management System is developed using the following technologies:
+MySQL: The relational database management system used for storing data related to menus, orders, and users.
 
-- Programming Language: C#
-- Database: SQL Server or any other preferred database system
-- OOP concepts.
+JDBC: The Java Database Connectivity library used for connecting the application to the MySQL database.
